@@ -76,8 +76,8 @@
 }
 
 #container {
-  display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
 }
 
 #Header {
@@ -261,4 +261,165 @@
   border: solid #22b3d0;
   margin-top: 15px;
   color: aqua;
+}
+
+.Review {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Review-rate {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 5px;
+}
+
+.grid-review {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 35px
+}
+
+.item-left {
+  display: flex;
+  flex-direction: column;
+}
+
+.item-right {
+  display: flex;
+  flex-direction: column;
+}
+
+.item-review {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.name-and-avt {
+  display: flex;
+  gap: 17px;
+  align-items: center;
+}
+
+.time-chat {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.group-name-and-rate {
+  display: flex;
+  flex-direction: column;
+}
+
+.image-rating {
+  position: absolute;
+  top: 40px;
+}
+
+.time-day {
+  color: gray;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.Product-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.row-title-product {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.GroupProducts {
+  display: flex;
+  justify-content: space-around;
+}
+
+.South1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.email {
+  height: 40px;
+  width: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.button-Subscribe {
+  height: 40px;
+  color: aliceblue;
+  background-color: aqua;
+  border: solid 0px;
+  border-radius: 3px;
+  width: 100px;
+}
+
+.txtEmail {
+  height: 38px;
+  width: 200px;
+  background-color: rgb(219, 231, 231);
+  border: solid 0px;
+}
+
+.icon-email {
+  position: absolute;
+  top: 11px;
+  left: 110px;
+}
+
+.South2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 90px;
+}
+.contact-item{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.South3{
+  display: flex;
+  justify-content: space-between;
+}
+.abc{
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+}
+.South3-item{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.South3-item1{
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+}
+.fa-thin{
+  position: absolute;
+  top: 1px;
+  left: 80px;
+}
+.button-English{
+  width: 100px;
+  text-align: left;
+}
+.Souht3-item2{
+  position: relative;
 }
