@@ -27,9 +27,8 @@
     'menu footer bot';
   gap: 10px;
   background-color: #ffffff;
-  padding: 10px;
+  padding: 10ppx;
 }
-
 
 .grid-container>div {
   background-color: rgba(255, 255, 255, 0.8);
@@ -40,6 +39,7 @@
   grid-area: left;
   width: 860px;
   height: 216px;
+  text-align: left;
 }
 
 .description-item {
@@ -52,6 +52,13 @@
   grid-area: right;
   width: 351px;
   height: 388px;
+  border: solid 1px rgb(221, 214, 214);
+}
+
+.Price-Product {
+  color: rgb(0, 200, 231);
+  text-align: right;
+  width: 315px;
 }
 
 .Product-description {
@@ -60,7 +67,7 @@
     'left left right'
     'bot bot right';
   gap: 10px;
-  background-color: #e9bfbf;
+  background-color: #ffffff;
   padding: 10px;
 }
 
@@ -83,6 +90,8 @@
 #Header {
   display: flex;
   justify-content: space-between;
+  padding-bottom: 1px;
+  border-bottom: solid 1px #7e7e81;
 }
 
 .Search-box {
@@ -131,8 +140,13 @@
 }
 
 #container {
-  margin-left: 40px;
-  margin-right: 40px;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+.div-Description {
+  padding-bottom: 40px;
+  border-bottom: solid 1px rgb(187, 185, 185);
 }
 
 .North-menu2-item {
@@ -225,7 +239,7 @@
   align-items: center;
   width: 320px;
   height: 40px;
-  background-color: darkgrey;
+  background-color: rgb(239, 233, 233);
   border-radius: 3px;
 }
 
@@ -258,9 +272,9 @@
   justify-content: center;
   gap: 10px;
   border-radius: 5px;
-  border: solid #22b3d0;
-  margin-top: 15px;
-  color: aqua;
+  border: solid #3f9bad;
+  margin-top: 7px;
+  color: rgba(0, 182, 182, 0.711);
 }
 
 .Review {
@@ -275,7 +289,11 @@
   align-items: center;
   gap: 5px;
 }
-
+.Box-review{
+  padding-top: 20px;
+  padding-bottom: 30px;
+  border-bottom: solid 1px #7e7e81;
+}
 .grid-review {
   display: flex;
   justify-content: space-around;
@@ -330,6 +348,34 @@
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  gap: 25px;
+}
+
+.Related-products {
+  padding-bottom: 100px;
+  padding-top: 10px;
+  border-bottom: solid 1px #7e7e81;
+}
+
+.pri {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.product-price {
+  color: #2196F3;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.items-sold {
+  color: #7e7e81;
+}
+
+.txtTitleProduct {
+  font-size: 20px;
+  font-weight: bold;
 }
 
 .row-title-product {
@@ -341,6 +387,10 @@
 .GroupProducts {
   display: flex;
   justify-content: space-around;
+}
+
+.South {
+  padding-top: 50px;
 }
 
 .South1 {
@@ -384,42 +434,51 @@
 .South2 {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: top;
   gap: 90px;
 }
-.contact-item{
+
+.contact-item {
   display: flex;
   flex-direction: column;
   gap: 10px;
 }
-.South3{
+
+.South3 {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
-.abc{
+
+.abc {
   display: flex;
   justify-content: space-around;
   gap: 20px;
 }
-.South3-item{
+
+.South3-item {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.South3-item1{
+
+.South3-item1 {
   display: flex;
   justify-content: space-around;
   gap: 20px;
 }
-.fa-thin{
+
+.fa-solid {
   position: absolute;
-  top: 1px;
+  top: 2px;
   left: 80px;
 }
-.button-English{
+
+.button-English {
   width: 100px;
   text-align: left;
 }
-.Souht3-item2{
+
+.Souht3-item2 {
   position: relative;
 }
